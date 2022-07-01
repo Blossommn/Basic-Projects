@@ -1,39 +1,8 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
-player1 = input("Please pick a marker 'X' or 'O'")
-
-
-# In[2]:
-
-
-position = int(input('Please enter a number'))
-
-
-# In[3]:
-
-
-from IPython.display import clear_output
-clear_output()
-
-
-# In[4]:
-
-
-print('\n' * 100)
-
-
-# In[67]:
-
-
 from IPython.display import clear_output
 
 def display_board(board):
     
-    
+    clear_ output()
     print("   |   |")
     print(" " + board[1]+ " | "+board[2]+" | "+board[3])
     print("   |   |")
@@ -46,16 +15,8 @@ def display_board(board):
     print(" " + board[7]+ " | "+board[8]+" | "+board[9])
     print("   |   |")    
 
-
-# In[68]:
-
-
 test_board = ['#','X','O','X','O','X','O','X','O','X']
 display_board(test_board)
-
-
-# In[69]:
-
 
 def player_input():
     marker = ''
@@ -68,30 +29,9 @@ def player_input():
     else:
         return ('O','X')
 
-
-# In[70]:
-
-
-player_input()
-
-
-# In[71]:
-
-
 def place_marker(board, marker, position):
 
     board[position] = marker
-
-
-# In[74]:
-
-
-place_marker(test_board,'$',2)
-display_board(test_board)
-
-
-# In[75]:
-
 
 def win_check(board, mark):
     return (
@@ -108,16 +48,6 @@ def win_check(board, mark):
         (board[3]== mark and board [5] == mark and board[7] == mark) 
     )
 
-
-# In[78]:
-
-
-win_check(test_board,"O")
-
-
-# In[85]:
-
-
 import random
 
 def choose_first():
@@ -127,27 +57,15 @@ def choose_first():
     else:
         return 'Player 1'
 
-
-# In[86]:
-
-
 def space_check(board,position):
     
     return board[position] == ' '
-
-
-# In[87]:
-
 
 def full_board_check(board):
     for i in range(1,10):
         if space_check(board, i):
             return False
     return True
-
-
-# In[88]:
-
 
 def player_choice(board):
     
@@ -158,17 +76,9 @@ def player_choice(board):
         
     return position
 
-
-# In[89]:
-
-
 def replay():
     
     return input('Do you want to play again? Enter Yes or No: ').lower().startswith('y')
-
-
-# In[90]:
-
 
 print("Welcome to Tic Tac Toe!")
 
@@ -226,10 +136,3 @@ while True:
                     
     if not replay():
         break
-
-
-# In[ ]:
-
-
-
-
