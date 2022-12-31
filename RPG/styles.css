@@ -1,0 +1,60 @@
+body {
+  background-color: #1c2e4c;
+  font-family: Kanit, Calibri;
+}
+
+h1 {
+  color: #6cd0ff;
+  text-align: center;
+  font-weight: 700;
+}
+#intro-text {
+  background-color: #6cd0ff;
+  color: darkblue;
+  padding: 1.3rem;
+  border-radius: 1rem;
+}
+
+#game {
+  max-width: 600px;
+  max-height: 700px;
+  background-color: #576182;
+  color: white;
+  margin: auto;
+  padding: 1.3rem;
+  border-radius: 1rem;
+}
+
+#controls {
+  padding: 0.8rem;
+}
+
+#stats {
+  border: 2px #72b2e4 solid;
+  border-bottom: #72b2e4;
+  border-radius: 4px;
+  color: #92e1e2;
+  padding: 5px;
+}
+
+#beastStats {
+  display: none;
+  border: 2px #6cd0ff solid;
+  border-top: #1c2e4c;
+  border-radius: 4px;
+  color: #6cd0ff;
+  padding: 5px;
+}
+
+.stat {
+  padding-right: 0px;
+}
+
+button {
+  background-color: #1c2e4c;
+  color: #6cd0ff;
+  font-family: Kanit, Calibri;
+  border: 2px white solid;
+  border-radius: 10px;
+  padding: 5px;
+}
