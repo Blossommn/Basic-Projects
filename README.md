@@ -1,6 +1,2 @@
-- 👋 Hi, I’m Michael 
-- 👀 I’m interested in reading books and mangas, listening to different music genre, playing video games with friends, and building custom PCs. 
-- 🌱 I’m currently learning algorithms and data structure using programming language, Python. Looking more into learning Java and C++ language 
-- for app development and game development. I also plan on learning more in-depth in CSS and JavaScript later on for building my own website. 
-- 
-- 📫 How to reach me: michaelng980@gmail.com
+Hello! 
+The purpose of this folder is these are the small projects that I've learned and developed when I was learning how to code with several programming languages such as Python, HTML, CSS, JavaScript, etc. and it really helped me understand the fundamentals of developing software and websites that will help me be able to learn and build advanced projects in the future.
